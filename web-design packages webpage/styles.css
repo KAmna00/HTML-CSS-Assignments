@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.pricing-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2C3E50;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #7F8C8D;
+    margin-bottom: 40px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    background-color: #fff;
+    border: 2px solid #ECF0F1;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.pricing-card h2 {
+    font-size: 1.8rem;
+    color: #34495E;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 2.5rem;
+    color: #27AE60;
+    margin-bottom: 10px;
+}
+
+.original-price {
+    font-size: 1rem;
+    color: #95A5A6;
+    margin-bottom: 20px;
+}
+
+.discount {
+    color: #E74C3C;
+    font-weight: bold;
+}
+
+.features {
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.features li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.features li::before {
+    content: "✔";
+    margin-right: 10px;
+    color: #27AE60;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #3498DB;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980B9;
+}
+
+.footer {
+    margin-top: 50px;
+}
+
+.footer-btn {
+    padding: 15px 40px;
+    background-color: #2ECC71;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.footer-btn:hover {
+    background-color: #27AE60;
+}
+
+@media (max-width: 768px) {
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        margin-bottom: 20px;
+    }
+}
