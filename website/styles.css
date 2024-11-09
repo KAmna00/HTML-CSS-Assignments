@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9   ;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-header {
+    background-color: #1e2a38    ;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-nav ul li {
+    display: inline;
+}
+
+.main-nav ul li a {
+    color: #f4d03f ;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav ul li a:hover{
+    color: #fff;
+}
+
+.hero {
+    background-color: #17a2b8 ;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #f4d03f;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.btn {
+    padding: 12px 30px;
+    background-color: #f4d03f;
+    color: #1e2a38;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c29d25;
+    color: #fff;
+}
+
+.advantages, .about-us, .services, .contact-form {
+    padding: 60px 0;
+    text-align: center;
+}
+
+.advantages h2, .about-us h2, .services h2, .contact-form h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #1e2a38;
+}
+
+.advantages-grid, .services-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.advantage-item, .service-item {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 30%;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.advantage-item:hover, .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-item h3 {
+    font-size: 1.8rem;
+    color: #555;
+}
+
+.service-item p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.main-footer {
+    background-color: #1e2a38;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.main-footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #cfcfcf;
+}
+
+.main-footer a {
+    color: #f4d03f;
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    color: #fff;
+}
